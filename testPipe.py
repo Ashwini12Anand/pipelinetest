@@ -7,8 +7,9 @@ class Test:
     def process(self):
         a = 15
         b = 10
-        print(a+b)
+        return a+b
 
 if __name__=="__main__":
     obj = Test()
-    obj.process()
+    res = obj.process()
+    print(res)
